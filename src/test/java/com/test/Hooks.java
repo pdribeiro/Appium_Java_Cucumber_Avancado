@@ -15,7 +15,7 @@ public class Hooks {
     public static AppiumDriver<?> validateDriver() throws MalformedURLException {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("app", "/Users/hsoares/Downloads/QazandoSeleniumJava-master/projetoYoutube/apps/app-debug.apk");
+        capabilities.setCapability("app", "C:\\Users\\PICHAU\\Documents\\Projetos\\appium-com-cucumber-avançado\\apps\\app-debug.apk");
         capabilities.setCapability("deviceName", "emulator-5554");
         capabilities.setCapability("platformName", "Android");
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
