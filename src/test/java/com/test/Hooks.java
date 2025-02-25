@@ -18,7 +18,7 @@ public class Hooks {
         capabilities.setCapability("app", "C:\\Users\\PICHAU\\Documents\\Projetos\\appium-com-cucumber-avançado\\apps\\app-debug.apk");
         capabilities.setCapability("deviceName", "emulator-5554");
         capabilities.setCapability("platformName", "Android");
-        driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         return driver;
     }
 

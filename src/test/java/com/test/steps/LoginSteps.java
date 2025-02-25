@@ -18,4 +18,9 @@ public class LoginSteps {
     public void escrever_os_dados_da_senha_com(String texto) {
         login.writePass(texto);
     }
+
+    @Dado("^que preencha o email com o usuario \"([^\"]*)\"$")
+    public void que_preencha_o_email_com_o_usuario(String usuario) {
+        login.writeEmails(usuario);
+    }
 }
