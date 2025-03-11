@@ -83,7 +83,7 @@ formatter.examples({
   "keyword": "Exemplos"
 });
 formatter.before({
-  "duration": 5773894400,
+  "duration": 5753150500,
   "status": "passed"
 });
 formatter.background({
@@ -102,7 +102,7 @@ formatter.match({
   "location": "LoginSteps.que_eu_escreva_as_informações_do_usuário()"
 });
 formatter.result({
-  "duration": 3196272000,
+  "duration": 2293759699,
   "status": "passed"
 });
 formatter.scenario({
@@ -150,7 +150,7 @@ formatter.match({
   "location": "LoginSteps.que_eu_visualize_o_texto_no_botão_de_login(String)"
 });
 formatter.result({
-  "duration": 1434600,
+  "duration": 557761900,
   "status": "passed"
 });
 formatter.match({
@@ -163,7 +163,7 @@ formatter.match({
   "location": "LoginSteps.que_preencha_o_email_com_o_usuario(String)"
 });
 formatter.result({
-  "duration": 1081135300,
+  "duration": 626226999,
   "status": "passed"
 });
 formatter.match({
@@ -176,11 +176,11 @@ formatter.match({
   "location": "LoginSteps.escrever_os_dados_da_senha_com(String)"
 });
 formatter.result({
-  "duration": 2118889900,
+  "duration": 1135362301,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1461670100,
+  "duration": 1523735500,
   "status": "passed"
 });
 formatter.background({
@@ -199,7 +199,7 @@ formatter.match({
   "location": "LoginSteps.que_eu_escreva_as_informações_do_usuário()"
 });
 formatter.result({
-  "duration": 2817602900,
+  "duration": 3342558701,
   "status": "passed"
 });
 formatter.scenario({
@@ -247,7 +247,7 @@ formatter.match({
   "location": "LoginSteps.que_eu_visualize_o_texto_no_botão_de_login(String)"
 });
 formatter.result({
-  "duration": 42500,
+  "duration": 516386000,
   "status": "passed"
 });
 formatter.match({
@@ -260,7 +260,7 @@ formatter.match({
   "location": "LoginSteps.que_preencha_o_email_com_o_usuario(String)"
 });
 formatter.result({
-  "duration": 1073849100,
+  "duration": 128823600,
   "status": "passed"
 });
 formatter.match({
@@ -273,11 +273,11 @@ formatter.match({
   "location": "LoginSteps.escrever_os_dados_da_senha_com(String)"
 });
 formatter.result({
-  "duration": 2116245500,
+  "duration": 1140083100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1573862000,
+  "duration": 1551323801,
   "status": "passed"
 });
 formatter.background({
@@ -296,7 +296,7 @@ formatter.match({
   "location": "LoginSteps.que_eu_escreva_as_informações_do_usuário()"
 });
 formatter.result({
-  "duration": 2785128400,
+  "duration": 3349224400,
   "status": "passed"
 });
 formatter.scenario({
@@ -344,7 +344,7 @@ formatter.match({
   "location": "LoginSteps.que_eu_visualize_o_texto_no_botão_de_login(String)"
 });
 formatter.result({
-  "duration": 103000,
+  "duration": 556786600,
   "status": "passed"
 });
 formatter.match({
@@ -357,7 +357,7 @@ formatter.match({
   "location": "LoginSteps.que_preencha_o_email_com_o_usuario(String)"
 });
 formatter.result({
-  "duration": 1088420200,
+  "duration": 627950801,
   "status": "passed"
 });
 formatter.match({
@@ -370,7 +370,7 @@ formatter.match({
   "location": "LoginSteps.escrever_os_dados_da_senha_com(String)"
 });
 formatter.result({
-  "duration": 1125995600,
+  "duration": 2114436699,
   "status": "passed"
 });
 });

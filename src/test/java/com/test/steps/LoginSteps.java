@@ -16,6 +16,7 @@ public class LoginSteps {
     @Dado("^que eu visualize o texto \"([^\"]*)\" no botão de login$")
     public void que_eu_visualize_o_texto_no_botão_de_login(String txt) throws NoSuchFieldException {
        // utils.scrollToTextAndroid("5552 - Lucas Dira");
+        utils.validateTxt(login.btnLogin,txt);
 
     }
 
