@@ -17,7 +17,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1113477000,
+              "duration": 3196272000,
               "status": "passed"
             },
             "line": 6,
@@ -33,7 +33,7 @@
         "before": [
           {
             "result": {
-              "duration": 5548603900,
+              "duration": 5773894400,
               "status": "passed"
             },
             "match": {
@@ -41,19 +41,58 @@
             }
           }
         ],
-        "line": 9,
+        "line": 19,
         "name": "Login com sucesso",
         "description": "",
-        "id": "login-de-usuario-melhoria-de-cenário-bonito;login-com-sucesso",
+        "id": "login-de-usuario-melhoria-de-cenário-bonito;login-com-sucesso;;2",
         "type": "scenario",
-        "keyword": "Cenário",
+        "keyword": "Esquema do Cenário",
         "steps": [
           {
             "result": {
-              "duration": 1057757300,
+              "duration": 1434600,
               "status": "passed"
             },
-            "line": 10,
+            "line": 14,
+            "name": "que eu visualize o texto \"CONTINUAR\" no botão de login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CONTINUAR",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.que_eu_visualize_o_texto_no_botão_de_login(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1081135300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que preencha o email com o usuario \"pedro@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pedro@gmail.com",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.que_preencha_o_email_com_o_usuario(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2118889900,
+              "status": "passed"
+            },
+            "line": 16,
             "name": "escrever os dados da senha com \"123456\"",
             "match": {
               "arguments": [
@@ -64,13 +103,232 @@
               ],
               "location": "LoginSteps.escrever_os_dados_da_senha_com(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "Quando "
           }
         ],
         "tags": [
           {
-            "line": 8,
-            "name": "@teste"
+            "line": 12,
+            "name": "@teste-1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "logar no app",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 2817602900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que eu escreva as informações do usuário",
+            "match": {
+              "location": "LoginSteps.que_eu_escreva_as_informações_do_usuário()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1461670100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startProject()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login com sucesso",
+        "description": "",
+        "id": "login-de-usuario-melhoria-de-cenário-bonito;login-com-sucesso;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 42500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que eu visualize o texto \"CONTINUAR\" no botão de login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CONTINUAR",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.que_eu_visualize_o_texto_no_botão_de_login(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1073849100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que preencha o email com o usuario \"pedro@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pedro@hotmail.com",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.que_preencha_o_email_com_o_usuario(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2116245500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "escrever os dados da senha com \"1234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginSteps.escrever_os_dados_da_senha_com(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@teste-1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "logar no app",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 2785128400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que eu escreva as informações do usuário",
+            "match": {
+              "location": "LoginSteps.que_eu_escreva_as_informações_do_usuário()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1573862000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startProject()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login com sucesso",
+        "description": "",
+        "id": "login-de-usuario-melhoria-de-cenário-bonito;login-com-sucesso;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 103000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que eu visualize o texto \"CONTINUAR\" no botão de login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CONTINUAR",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.que_eu_visualize_o_texto_no_botão_de_login(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1088420200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que preencha o email com o usuario \"pedro@uol.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pedro@uol.com",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.que_preencha_o_email_com_o_usuario(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1125995600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "escrever os dados da senha com \"1234568\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234568",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginSteps.escrever_os_dados_da_senha_com(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@teste-1"
           }
         ]
       }

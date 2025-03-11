@@ -12,13 +12,30 @@ public class Hooks {
 
     private static AppiumDriver<?> driver;
 
+    public  static String plataforma = "";
+
     public static AppiumDriver<?> validateDriver() throws MalformedURLException {
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("app", "C:\\Users\\PICHAU\\Documents\\Projetos\\appium-com-cucumber-avançado\\apps\\app-debug.apk");
-        capabilities.setCapability("deviceName", "emulator-5554");
-        capabilities.setCapability("platformName", "Android");
-        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        plataforma = System.getProperty("plataforma");
+        System.out.println("Sua plataforma é " + plataforma);
+
+        if(plataforma.equals("android")) {
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setCapability("app", "C:\\Users\\PICHAU\\Documents\\Projetos\\appium-com-cucumber-avançado\\apps\\app-debug.apk");
+            capabilities.setCapability("deviceName", "emulator-5554");
+            capabilities.setCapability("platformName", "Android");
+            driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+
+        } else if (plataforma.equals("ios")){
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setCapability("app", "C:\\Users\\PICHAU\\Documents\\Projetos\\appium-com-cucumber-avançado\\apps\\app-debug.apk");
+            capabilities.setCapability("deviceName", "emulator-5554");
+            capabilities.setCapability("platformName", "IOS");
+            driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+
+        } else {
+            System.out.println("Plataforma não encontrada , utilize android ou ios");
+        }
         return driver;
     }
 

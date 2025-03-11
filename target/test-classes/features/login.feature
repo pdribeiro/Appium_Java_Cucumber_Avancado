@@ -11,6 +11,7 @@ Funcionalidade: Login de Usuario Melhoria de cenário bonito
 
   @teste-1
   Esquema do Cenário: Login com sucesso
+    Dado que eu visualize o texto "CONTINUAR" no botão de login
     Dado que preencha o email com o usuario "<usuario>"
     Quando escrever os dados da senha com "<senha>"
     Exemplos:

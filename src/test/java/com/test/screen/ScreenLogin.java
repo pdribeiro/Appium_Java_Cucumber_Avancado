@@ -2,6 +2,7 @@ package com.test.screen;
 
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSFindBy;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 
 public class ScreenLogin extends BaseScreen {
@@ -14,6 +15,7 @@ public class ScreenLogin extends BaseScreen {
     @iOSFindBy(accessibility = "login_password")
     private RemoteWebElement fieldpass;
 
+
     public void writeEmail(){
         fieldEmail.sendKeys("qazando@gmail.com");
     }
@@ -25,4 +27,6 @@ public class ScreenLogin extends BaseScreen {
     public void writeEmails(String txt){
         fieldEmail.sendKeys(txt);
     }
-}
+
+    }
+
